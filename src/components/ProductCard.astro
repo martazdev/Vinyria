@@ -20,10 +20,10 @@ const stars = Array.from({ length: 5 }, (_, i) => i < Math.round(rating));
 ---
 
 <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition border border-gray-100 flex flex-col h-full group">
-  <div class="relative h-48 overflow-hidden bg-gray-100">
+  <a href={link} class="block relative h-48 overflow-hidden bg-gray-100">
     <img src={finalImage} alt={title} class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
     {badge && <span class="absolute top-2 right-2 bg-emerald-600 text-white text-xs font-bold px-2 py-1 rounded shadow">{badge}</span>}
-  </div>
+  </a>
   
   <div class="p-5 flex flex-col flex-grow">
     <div class="flex items-center gap-1 mb-2 text-amber-500">
