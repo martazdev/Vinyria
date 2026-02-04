@@ -8,60 +8,8 @@ recommended: true
 affiliateLink: "https://digistore24.com/"
 ---
 
-import ComparisonTable from '../../components/ComparisonTable.jsx';
-import ProsCons from '../../components/ProsCons.astro';
-
-export const products = [
-  {
-    name: "Sony WH-1000XM5",
-    rating: 4.8,
-    price: "$348",
-    link: "#",
-    features: {
-      "Battery Life": "30 Hrs",
-      "Noise Cancellation": "Market Leading",
-      "Comfort": "Excellent",
-      "Multi-point": true
-    }
-  },
-  {
-    name: "Bose QC45",
-    rating: 4.5,
-    price: "$329",
-    link: "#",
-    features: {
-      "Battery Life": "24 Hrs",
-      "Noise Cancellation": "Excellent",
-      "Comfort": "Superb",
-      "Multi-point": true
-    }
-  },
-   {
-    name: "Apple AirPods Max",
-    rating: 4.2,
-    price: "$549",
-    link: "#",
-    features: {
-      "Battery Life": "20 Hrs",
-      "Noise Cancellation": "Great",
-      "Comfort": "Heavy",
-      "Multi-point": false
-    }
-  }
-];
-
 Are you tired of the noise? We found the best headphones for you.
-
-## Quick Comparison
-
-<ComparisonTable products={products} client:load />
 
 ## 1. Sony WH-1000XM5 - The King of Silence
 
 The Sony WH-1000XM5 continues the legacy of best-in-class noise cancellation.
-
-<ProsCons 
-  pros={["Industry-leading ANC", "Lightweight design", "Great app support"]}
-  cons={["Can't fold down", "Pricey"]}
-/>
-
