@@ -22,7 +22,7 @@ All blog posts and reviews are located in:
     heroImage: "https://images.unsplash.com/photo-..." # Optional
     category: "Tech" # Options: Tech, Home, Software, Lifestyle
     recommended: true # Set to true to feature on homepage
-    affiliateLink: "https://amazon.com/..." # Optional
+    affiliateLink: "https://amazon.com/..." 
     ---
     ```
 
