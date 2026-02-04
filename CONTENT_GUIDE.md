@@ -58,10 +58,14 @@ To create a **Call to Action Button**, just add the `.btn` class to an HTML link
 <a href="https://amazon.com/..." class="btn">Check Price on Amazon</a>
 ```
 
-### Bullets & Lists
+### Anchors & Linking to Sections
+Every heading (`#`, `##`, `###`) automatically gets an ID. 
+- Example: `## Conclusion` becomes `#conclusion`
+- Example: `## 1. Sony WH-1000XM5` becomes `#1-sony-wh-1000xm5`
+
+To link to a section within your post:
 ```markdown
-- Pros: Great sound, comfy
-- Cons: Expensive
+[Read our conclusion](#conclusion)
 ```
 
 ## ❌ How to Remove a Post
