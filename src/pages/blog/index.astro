@@ -27,7 +27,7 @@ const categories = ['All', ...new Set(posts.map((post) => post.data.category))];
   </section>
 
   <section class="py-16 container mx-auto px-4">
-    <div class="grid md:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {posts.map((post) => (
           <ProductCard
             title={post.data.title}

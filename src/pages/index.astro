@@ -20,7 +20,7 @@ const posts = (await getCollection('blog'))
     </div>
 
     {posts.length > 0 ? (
-      <div class="grid md:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {posts.map((post) => (
           <ProductCard
             title={post.data.title}
@@ -42,7 +42,7 @@ const posts = (await getCollection('blog'))
   <section class="py-20 bg-slate-50 border-t border-slate-200">
     <div class="container mx-auto px-4">
       <h2 class="text-3xl font-bold text-slate-900 mb-12 text-center">Browse Categories</h2>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
         {[
           { name: 'Tech', img: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=600' },
           { name: 'Home', img: 'https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&q=80&w=600' },
@@ -60,7 +60,7 @@ const posts = (await getCollection('blog'))
   <section class="py-20 bg-emerald-900 text-white">
     <div class="container mx-auto px-4 text-center max-w-4xl">
       <h2 class="text-3xl font-bold mb-8">Why Trust Vinyria?</h2>
-      <div class="grid md:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div class="p-6 bg-emerald-800/50 rounded-2xl">
           <div class="text-4xl mb-4">🔍</div>
           <h3 class="text-xl font-bold mb-2">Unbiased Reviews</h3>
