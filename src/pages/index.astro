@@ -1,0 +1,96 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import ProductCard from '../components/ProductCard.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog'))
+  .filter(post => post.data.recommended)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+---
+
+<Layout title="Vinyria - Curated Reviews for Smart Buyers" description="Expert reviews and comparisons for the best tech, home, and software products.">
+  <Hero />
+
+  <section id="featured" class="py-20 container mx-auto px-4">
+    <div class="flex items-center justify-between mb-8">
+      <h2 class="text-3xl font-bold text-slate-900">Featured Reviews</h2>
+      <a href="/blog" class="text-emerald-700 font-semibold hover:underline">View All &rarr;</a>
+    </div>
+
+    {posts.length > 0 ? (
+      <div class="grid md:grid-cols-3 gap-8">
+        {posts.map((post) => (
+          <ProductCard
+            title={post.data.title}
+            image={post.data.heroImage || '/placeholder-hero.jpg'}
+            rating={4.5} // Placeholder, ideally should be in frontmatter
+            price="Check Price" // Placeholder
+            link={`/blog/${post.slug}`}
+            badge={post.data.category}
+          />
+        ))}
+      </div>
+    ) : (
+       <div class="text-center py-12 bg-gray-50 rounded-xl border border-gray-100">
+          <p class="text-slate-500 text-lg">No recommended reviews yet. Check back soon!</p>
+       </div>
+    )}
+  </section>
+
+  <section class="py-20 bg-slate-50 border-t border-slate-200">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-slate-900 mb-12 text-center">Browse Categories</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        {[
+          { name: 'Tech', img: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=600' },
+          { name: 'Home', img: 'https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&q=80&w=600' },
+          { name: 'Software', img: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=600' },
+          { name: 'Lifestyle', img: 'https://images.unsplash.com/photo-1511871893393-82e9c16b81e3?auto=format&fit=crop&q=80&w=600' }
+        ].map((category) => (
+          <a href={`/blog?category=${category.name}`} class="group relative overflow-hidden rounded-2xl shadow-lg aspect-[4/3] flex items-center justify-center">
+            <img src={category.img} alt={category.name} class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/20 group-hover:from-black/70 transition"></div>
+            <h3 class="relative text-white font-bold text-2xl tracking-wide z-10 group-hover:text-emerald-300 transition">{category.name}</h3>
+          </a>
+        ))}
+      </div>
+    </div>
+  <section class="py-20 bg-emerald-900 text-white">
+    <div class="container mx-auto px-4 text-center max-w-4xl">
+      <h2 class="text-3xl font-bold mb-8">Why Trust Vinyria?</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 bg-emerald-800/50 rounded-2xl">
+          <div class="text-4xl mb-4">🔍</div>
+          <h3 class="text-xl font-bold mb-2">Unbiased Reviews</h3>
+          <p class="text-emerald-100">We buy our own products to test. No sponsored bias, just honest truth.</p>
+        </div>
+        <div class="p-6 bg-emerald-800/50 rounded-2xl">
+          <div class="text-4xl mb-4">⏱️</div>
+          <h3 class="text-xl font-bold mb-2">Hours of Testing</h3>
+          <p class="text-emerald-100">Every product undergoes rigorous real-world testing scenarios.</p>
+        </div>
+        <div class="p-6 bg-emerald-800/50 rounded-2xl">
+          <div class="text-4xl mb-4">✅</div>
+          <h3 class="text-xl font-bold mb-2">Expert Vetting</h3>
+          <p class="text-emerald-100">Our team consists of industry experts with decades of experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-4 text-center max-w-2xl">
+      <h2 class="text-3xl font-bold text-slate-900 mb-4">Join 10,000+ Smart Buyers</h2>
+      <p class="text-slate-600 mb-8 text-lg">Get the latest reviews and deals delivered straight to your inbox.</p>
+      <form class="flex flex-col md:flex-row gap-4">
+        <input type="email" placeholder="Enter your email address" class="flex-grow px-6 py-3 rounded-full border border-gray-300 focus:outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-200 transition" required />
+        <button type="submit" class="bg-emerald-700 hover:bg-emerald-800 hover:scale-105 transition text-white font-bold py-3 px-8 rounded-full shadow-lg">
+          Subscribe
+        </button>
+      </form>
+      <p class="text-xs text-slate-400 mt-4">No spam, unsubscribe at any time.</p>
+    </div>
+  </section>
+</Layout>

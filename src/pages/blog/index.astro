@@ -1,0 +1,43 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+// Get unique categories
+const categories = ['All', ...new Set(posts.map((post) => post.data.category))];
+
+// Handle category filtering (server-side for initial render if using query params, 
+// but for static site, usually we'd use client-side or separate routes. 
+// For simplicity in this index, we list all, but could add basic JS filtering or just links)
+// Here we will list ALL posts.
+---
+
+<Layout title="All Reviews - Vinyria" description="Browse our extensive library of hands-on reviews and comparisons.">
+  <section class="bg-slate-900 text-white py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-4xl font-bold mb-4">All Reviews</h1>
+      <p class="text-slate-300 text-lg max-w-2xl mx-auto">
+        Deep dives into the latest tech, home gear, and software.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-16 container mx-auto px-4">
+    <div class="grid md:grid-cols-3 gap-8">
+        {posts.map((post) => (
+          <ProductCard
+            title={post.data.title}
+            image={post.data.heroImage || '/placeholder-hero.jpg'}
+            rating={4.5} 
+            price="Check Price"
+            link={`/blog/${post.slug}`}
+            badge={post.data.category}
+          />
+        ))}
+    </div>
+  </section>
+</Layout>

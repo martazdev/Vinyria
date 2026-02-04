@@ -1,0 +1,20 @@
+---
+const { class: className } = Astro.props;
+---
+
+<header class:list={["fixed w-full top-0 z-50 transition-all duration-300 backdrop-blur-md bg-white/70 border-b border-white/20 supports-[backdrop-filter]:bg-white/60", className]}>
+  <div class="absolute inset-0 bg-gradient-to-r from-emerald-50/50 via-white/50 to-emerald-50/50 opacity-50 pointer-events-none"></div>
+  <div class="container mx-auto px-4 py-4 flex justify-between items-center relative z-10">
+    <a href="/" class="text-2xl font-bold text-emerald-800 flex items-center gap-2 tracking-tight">
+      Vinyria
+    </a>
+    <nav>
+      <ul class="flex space-x-8 text-slate-800 font-medium">
+        <li><a href="/" class="hover:text-emerald-700 hover:scale-105 transition display-inline-block">Home</a></li>
+        <li><a href="/blog" class="hover:text-emerald-700 hover:scale-105 transition display-inline-block">Reviews</a></li>
+        <li><a href="/about" class="hover:text-emerald-700 hover:scale-105 transition display-inline-block">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="h-[72px]"></div> <!-- Spacer to prevent content jump -->

@@ -1,0 +1,54 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="About Vinyria - Our Mission" description="Learn about the team of experts behind Vinyria's unbiased reviews.">
+  <section class="bg-emerald-900 text-white py-20">
+    <div class="container mx-auto px-4 text-center max-w-3xl">
+      <h1 class="text-4xl md:text-5xl font-bold mb-6">We're on a Mission to Simplify Buying.</h1>
+      <p class="text-xl text-emerald-100 font-light leading-relaxed">
+        Vinyria was born from frustration. Too many fake reviews, too much noise. We cut through it all to bring you the truth.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-20 container mx-auto px-4 max-w-4xl">
+    <div class="prose prose-lg prose-slate mx-auto text-slate-700">
+      <h2>Who We Are</h2>
+      <p>
+        We are a team of tech enthusiasts, audiophiles, and home improvement geeks. We don't just aggregate specs; we live with the products we recommend. If a pair of headphones is uncomfortable after 2 hours, we'll tell you. If a vacuum cleaner clogs easily, you'll know.
+      </p>
+      
+      <h3>Our Testing Process</h3>
+      <ul>
+        <li><strong>Research:</strong> We scour the market for the top contenders.</li>
+        <li><strong>Purchase:</strong> we buy products anonymously to ensure no "reviewer units" bias.</li>
+        <li><strong>Test:</strong> Real-world usage scenarios, not just benchmarks.</li>
+        <li><strong>Review:</strong> Honest, transparent verdicts.</li>
+      </ul>
+
+      <blockquote>
+        "Our reputation IS our business. If we recommend bad products, you won't come back. That's why we are obsessed with accuracy."
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="py-16 bg-slate-50">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold text-slate-900 mb-8">Meet the Editors</h2>
+      <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+        {[
+          { name: 'Alex Rivera', role: 'Editor-in-Chief', img: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400' },
+          { name: 'Sarah Chen', role: 'Tech Lead', img: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=400' },
+          { name: 'Mike Ross', role: 'Home & Living', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=400' }
+        ].map(editor => (
+          <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+            <img src={editor.img} alt={editor.name} class="w-24 h-24 rounded-full mx-auto object-cover mb-4" />
+            <h3 class="font-bold text-lg text-slate-900">{editor.name}</h3>
+            <p class="text-emerald-600 font-medium">{editor.role}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,45 @@
+---
+import { Star } from 'lucide-react';
+
+interface Props {
+  title: string;
+  image: string;
+  rating: number; // 0-5
+  price: string;
+  link: string;
+  badge?: string;
+}
+
+const { title, image, rating, price, link, badge } = Astro.props;
+
+// Fallback image if none provided
+const finalImage = image || "https://images.unsplash.com/photo-1550009158-9ebf69173e03?auto=format&fit=crop&q=80&w=600";
+
+// Create array for stars
+const stars = Array.from({ length: 5 }, (_, i) => i < Math.round(rating));
+---
+
+<div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition border border-gray-100 flex flex-col h-full group">
+  <div class="relative h-48 overflow-hidden bg-gray-100">
+    <img src={finalImage} alt={title} class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
+    {badge && <span class="absolute top-2 right-2 bg-emerald-600 text-white text-xs font-bold px-2 py-1 rounded shadow">{badge}</span>}
+  </div>
+  
+  <div class="p-5 flex flex-col flex-grow">
+    <div class="flex items-center gap-1 mb-2 text-amber-500">
+      {stars.map((isFilled) => (
+        <Star size={16} fill={isFilled ? "currentColor" : "none"} strokeWidth={2} class={isFilled ? "" : "text-gray-300"} />
+      ))}
+      <span class="text-slate-400 text-xs ml-1">({rating}/5)</span>
+    </div>
+    
+    <h3 class="text-lg font-bold text-slate-900 mb-2 leading-tight">{title}</h3>
+    
+    <div class="mt-auto pt-4 flex items-center justify-between">
+      <span class="text-slate-600 font-semibold">{price}</span>
+      <a href={link} class="bg-amber-500 hover:bg-amber-400 hover:scale-105 transition text-slate-900 text-sm font-bold px-4 py-2 rounded-lg shadow-sm">
+        Check Price
+      </a>
+    </div>
+  </div>
+</div>
