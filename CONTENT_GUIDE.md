@@ -27,18 +27,42 @@ All blog posts and reviews are located in:
     ```
 
 3.  **Write Content**: You can use standard Markdown.
-    -   If using `.mdx`, you can import components like this:
+    -   Headings, lists, and images are styled automatically.
+    -   For buttons, use `<a href="..." class="btn">Text</a>`.
 
-    ```jsx
-    import ComparisonTable from '../../components/ComparisonTable.jsx';
-    import ProsCons from '../../components/ProsCons.astro';
+## ✏️ How to Write a Post
 
-    <ProsCons pros={["Benefit 1", "Benefit 2"]} cons={["Drawback 1"]} />
-    ```
+With the new setup, you just write standard text, and it will be styled automatically.
 
-## ✏️ How to Edit a Post
+### Headings
+Use `#` for main titles (handled automatically), `##` for sections, and `###` for sub-sections.
+```markdown
+## 1. Product Name
+### Design & Comfort
+```
 
-Simply open the corresponding `.md` or `.mdx` file in `src/content/blog/` and make your changes. The site will update immediately if you are running `npm run dev`.
+### Images
+Just paste your image URL. It will automatically get rounded corners and shadows.
+```markdown
+![Sony Headphones](https://images.unsplash.com/...)
+```
+
+### Links & Buttons
+Standard links look great:
+```markdown
+Check out the [official website](https://...)
+```
+
+To create a **Call to Action Button**, just add the `.btn` class to an HTML link:
+```html
+<a href="https://amazon.com/..." class="btn">Check Price on Amazon</a>
+```
+
+### Bullets & Lists
+```markdown
+- Pros: Great sound, comfy
+- Cons: Expensive
+```
 
 ## ❌ How to Remove a Post
 
