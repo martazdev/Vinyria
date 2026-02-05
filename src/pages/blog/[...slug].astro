@@ -1,8 +1,6 @@
 ---
 import { type CollectionEntry, getCollection } from 'astro:content';
 import BlogPost from '../../layouts/BlogPost.astro';
-import ComparisonTable from '../../components/ComparisonTable.jsx';
-import ProsCons from '../../components/ProsCons.astro';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('blog');
@@ -18,5 +16,5 @@ const { Content } = await post.render();
 ---
 
 <BlogPost {...post.data}>
-	<Content components={{ ComparisonTable, ProsCons }} />
+	<Content />
 </BlogPost>
