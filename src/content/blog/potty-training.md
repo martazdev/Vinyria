@@ -35,4 +35,4 @@ If you’re tired of spending money on enzyme cleaners and want to finally enjoy
 
 **Right now, there is a flash sale offering the entire 7-day blueprint—plus bonus guides on crate training and emergency cleanup—for 85% off.**
 
-<a href="[https://amazon.com/...](http://www.betterdailyguide.site/ds24/potty-training-in-7-days#aff=sofiaahmad022007a637)" class="btn">Click here to reclaim your home and start the 7-Day Challenge today!</a>
+<a href="(http://www.betterdailyguide.site/ds24/potty-training-in-7-days#aff=sofiaahmad022007a637)" class="btn">Click here to reclaim your home and start the 7-Day Challenge today!</a>
