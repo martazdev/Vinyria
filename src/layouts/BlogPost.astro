@@ -1,11 +1,14 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import Layout from './Layout.astro';
-import { BadgeCheck } from 'lucide-react';
+import { BadgeCheck, Star } from 'lucide-react';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage, recommended, affiliateLink } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, recommended, affiliateLink, rating = 5 } = Astro.props;
+
+// Create array for stars
+const stars = Array.from({ length: 5 }, (_, i) => i < Math.round(rating));
 ---
 
 <Layout title={title} description={description} image={heroImage}>
@@ -43,13 +46,21 @@ const { title, description, pubDate, updatedDate, heroImage, recommended, affili
 
     <!-- Header -->
     <header class="text-center mb-10 max-w-2xl mx-auto">
-      <div class="text-slate-500 text-sm font-medium mb-3">
-        Published on <time datetime={pubDate.toISOString()}>{pubDate.toLocaleDateString('en-us', {
-					year: 'numeric',
-					month: 'long',
-					day: 'numeric',
-				})}</time>
+      <div class="flex items-center justify-center gap-4 mb-4 text-sm text-slate-500 font-medium">
+         <time datetime={pubDate.toISOString()}>{pubDate.toLocaleDateString('en-us', {
+             year: 'numeric',
+             month: 'long',
+             day: 'numeric',
+         })}</time>
+         
+         <div class="flex items-center gap-1 text-amber-500 bg-amber-50 px-2 py-1 rounded-full border border-amber-100">
+             {stars.map((isFilled) => (
+               <Star size={14} fill={isFilled ? "currentColor" : "none"} strokeWidth={2.5} class={isFilled ? "" : "text-gray-300"} />
+             ))}
+             <span class="text-slate-700 font-bold ml-1">{rating}/5</span>
+         </div>
       </div>
+
       <h1 class="text-4xl md:text-5xl font-bold text-slate-900 tracking-tight leading-tight mb-4">
         {title}
       </h1>

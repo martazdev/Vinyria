@@ -33,7 +33,7 @@ const categories = ['All', ...new Set(posts.map((post) => post.data.category))];
             <ProductCard
                 title={post.data.title}
                 image={post.data.heroImage || '/placeholder-hero.jpg'}
-                rating={4.5} 
+                rating={post.data.rating || 5} 
                 price="Check Price"
                 link={`/blog/${post.slug}`}
                 badge={post.data.category}

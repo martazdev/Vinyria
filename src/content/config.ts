@@ -13,6 +13,7 @@ const blog = defineCollection({
 		affiliateLink: z.string().url().optional(),
 		category: z.string(),
 		recommended: z.boolean().default(false),
+		rating: z.number().min(0).max(5).default(5),
 	}),
 });
 
