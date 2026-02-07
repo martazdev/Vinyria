@@ -62,7 +62,7 @@ Users of the program report a wide range of mental breakthroughs and "lucky" coi
 
 If you feel stuck in a rut or simply want to optimize your performance, it’s time to stop fighting your brain and start working *with* it. You don't need to learn a new skill; you just need seven minutes and a pair of headphones.
 
-### [👉 Watch the Video Presentation: Discover The Genius Wave Here](https://ingeniuswave.com/DSvsl/#aff=sofiaahmad022007a637)
+<a href="https://ingeniuswave.com/DSvsl/#aff=sofiaahmad022007a637" class="btn">discover the genius wave here</a>
 
 ---
 
