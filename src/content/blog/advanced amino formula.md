@@ -62,4 +62,6 @@ The "Essential" in EAAs means your body **cannot** make them on its own—you mu
 Muscle loss isn't just about "looking fit"—it's about mobility, balance, and independence. Whether you are 45 or 75, giving your body the correct building blocks can help you stay strong, steady, and energetic.
 
 **Ready to stop muscle loss and reclaim your glow?**
-[**Shop the Advanced Amino Formula Here!**](https://www.advancedbionutritionals.com/DS24/Advanced-Amino/Muscle-Mass-Loss/HD.htm#aff=sofiaahmad022007a637)
+<a href=https://www.advancedbionutritionals.com/DS24/Advanced-Amino/Muscle-Mass-Loss/HD.htm#aff=sofiaahmad022007a637" class="btn">Shop the Advanced Amino Formula Here!</a>
+
+
