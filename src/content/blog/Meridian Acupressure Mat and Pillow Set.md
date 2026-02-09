@@ -68,7 +68,7 @@ If it’s your first time, don’t be intimidated! Here is a simple guide:
 
 The Meridian Acupressure Mat and Pillow Set is an investment in your long-term health. It’s a simple, effective, and affordable way to manage the physical and mental tolls of modern life.
 
-### [Click Here to Order Your Meridian Set Today!](https://andbalanced.com/pages/meridian-acupressure-mat-and-pillow-set-dg#aff=sofiaahmad022007a637)
+<a href="https://andbalanced.com/pages/meridian-acupressure-mat-and-pillow-set-dg#aff=sofiaahmad022007a637" class="btn">Click Here to Order Your Meridian Set Today!</a>
 
 ---
 *Note: Always consult with a doctor if you have specific medical conditions, such as high blood pressure or skin sensitivities, before beginning acupressure therapy.*
