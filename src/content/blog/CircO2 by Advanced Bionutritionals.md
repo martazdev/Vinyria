@@ -78,8 +78,6 @@ If you are struggling with low energy, circulation issues, or cognitive "fuzzine
 * Only available online.
 * The taste may vary (though most find the lozenge pleasant).
 
-### [Click Here to Learn More and Try CircO2 Risk-Free](https://www.digistore24.com/redir/538695/sofiaahmad022007a637/)
+<a href="https://www.digistore24.com/redir/538695/sofiaahmad022007a637/" class="btn">Click Here to Learn More and Try CircO2 Risk-Free</a>
 
 ---
-
-*Disclaimer: These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Always consult with your physician before starting a new supplement.*
