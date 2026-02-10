@@ -3,7 +3,7 @@ title: "HasnainDEV Review 2026: Professional Web Design That Scales"
 description: "Looking for an affordable WordPress or Shopify developer? Our HasnainDEV review explores pricing, speed optimization, and the 60-day money-back guarantee."
 pubDate: 2026-02-10
 heroImage: "https://www.digistore24-app.com/pb/img/merchant_3826376/image/product/ABTDDUYE.png"
-category: "lifestyle"
+category: "software"
 rating: 4.8
 recommended: true
 affiliateLink: "https://www.hasnaindev.com/#aff=sofiaahmad022007a637"
