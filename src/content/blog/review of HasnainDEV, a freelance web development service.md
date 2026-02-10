@@ -23,4 +23,4 @@ affiliateLink: "https://www.hasnaindev.com/#aff=sofiaahmad022007a637"
 | Startup | $350 |
 | Medium | $700 |
 
-[Get Started with HasnainDEV Today](https://www.hasnaindev.com/#aff=sofiaahmad022007a637)
+<a href="https://www.hasnaindev.com/#aff=sofiaahmad022007a637" class="btn">Get Started with HasnainDEV Today</a>
