@@ -1,4 +1,13 @@
-
+---
+title: "The Ultimate Keto Meal Plan Review: 30 Days to a Healthier You"
+description: "Discover how Claudia Caldwell’s Ultimate Keto Meal Plan removes the guesswork from ketosis. Get 30 days of easy recipes, grocery lists, and expert guidance to kickstart your weight loss journey today."
+pubDate: 2026-02-12
+heroImage: "https://www.digistore24-app.com/pb/img/merchant_95669/image/product/U83YZEV8.png"
+category: "lifestyle"
+rating: 5
+recommended: true
+affiliateLink: "https://www.claudiacaldwell.com/oto-uf61a?el=splittest-1214-bradflow-control#aff=sofiaahmad022007a637"
+---
 # Transform Your Health: A Deep Dive into Claudia Caldwell’s Ultimate Keto Meal Plan
 
 Are you tired of "yo-yo" dieting? If you’ve been looking for a sustainable way to lose weight without feeling like you're starving, you’ve likely come across the **Ketogenic Diet**. But let’s be honest: the hardest part isn't knowing *what* keto is—it's knowing *what to eat* every single day.
