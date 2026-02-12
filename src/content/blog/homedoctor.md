@@ -1,4 +1,13 @@
-
+---
+title: "The Home Doctor: A Must-Have Guide for Emergency Medical Care"
+description: "Discover "The Home Doctor," a 304-page manual written by doctors to help you manage medical emergencies at home. Learn how to treat wounds, handle power outages, and stockpile the right medicines."
+pubDate: 2026-02-12
+heroImage: "https://www.digistore24-app.com/pb/img/merchant_1054968/image/product/63YF3GS6.png"
+category: "home"
+rating: 5
+recommended: true
+affiliateLink: "https://homedoctorbook.com/book/#aff=sofiaahmad022007a637"
+---
 # Taking Health Into Your Own Hands: A Review of "The Home Doctor"
 
 In an unpredictable world, the ability to manage medical emergencies when professional help is unavailable is an invaluable skill. Whether it’s a natural disaster, a power outage, or a remote hiking trip, being prepared can make all the difference. 
