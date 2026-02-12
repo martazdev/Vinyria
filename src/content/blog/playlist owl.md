@@ -49,7 +49,7 @@ If you are serious about growing your Spotify streams organically without fallin
 
 **The math is simple:** One month of a PR agency can cost $500+. One year of other tools can cost $300+. PlaylistOwl gives you the same data for a one-time investment.
 
-### [🚀 Get Lifetime Access to PlaylistOwl Here](https://playlistowl.com/#aff=sofiaahmad022007a637)
+<a href="https://playlistowl.com/#aff=sofiaahmad022007a637" class="btn">🚀 Get Lifetime Access to PlaylistOwl Here</a>
 
 ---
 
