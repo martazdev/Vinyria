@@ -1,6 +1,6 @@
 ---
 title: "The Home Doctor: A Must-Have Guide for Emergency Medical Care"
-description: "Discover "The Home Doctor," a 304-page manual written by doctors to help you manage medical emergencies at home. Learn how to treat wounds, handle power outages, and stockpile the right medicines."
+description: "Discover **The Home Doctor,** a 304-page manual written by doctors to help you manage medical emergencies at home. Learn how to treat wounds, handle power outages, and stockpile the right medicines."
 pubDate: 2026-02-12
 heroImage: "https://www.digistore24-app.com/pb/img/merchant_1054968/image/product/63YF3GS6.png"
 category: "home"
