@@ -2,7 +2,7 @@
 title: "24K Golden Rose: A Timeless Masterpiece of Elegance and Craftsmanship"
 description: "Elevate your gifting game with a genuine 24-karat gold-plated rose. Meticulously crafted to capture nature's beauty, it's the perfect gift for those who appreciate the finer things."
 pubDate: 2026-02-12
-heroImage: "https://www.digistore24-app.com/pb/img/merchant_2005677/image/product/H4VEJAAT.gif"
+heroImage: "https://www.digistore24-app.com/pb/img/merchant_3293191/image/product/K5ZVJW7S.jpg"
 category: "lifestyle"
 rating: 5
 recommended: true
