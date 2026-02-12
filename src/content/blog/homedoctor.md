@@ -8,6 +8,7 @@ rating: 5
 recommended: true
 affiliateLink: "https://homedoctorbook.com/book/#aff=sofiaahmad022007a637"
 ---
+
 # Taking Health Into Your Own Hands: A Review of "The Home Doctor"
 
 In an unpredictable world, the ability to manage medical emergencies when professional help is unavailable is an invaluable skill. Whether it’s a natural disaster, a power outage, or a remote hiking trip, being prepared can make all the difference. 
@@ -67,7 +68,7 @@ We often take for granted that a doctor is just a phone call away. *The Home Doc
 ### 📘 Get Your Copy Today
 If you want to ensure your family is protected regardless of the circumstances, you can find the official physical copy and digital bonuses here:
 
-👉 **[Official Website: The Home Doctor](https://homedoctorbook.com/book/#aff=sofiaahmad022007a637)**
+<a href="https://homedoctorbook.com/book/#aff=sofiaahmad022007a637" class="btn">Official Website: The Home Doctor</a>
 
 ---
 *Note: This information is for educational purposes and is not a substitute for professional medical advice. Always seek a doctor's care when available.*
