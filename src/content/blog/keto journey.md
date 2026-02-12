@@ -50,7 +50,6 @@ If you’re tired of feeling sluggish and ready to see what your body is capable
 
 Stop overthinking it and start doing it. You can grab the entire system—including the meal plans and shopping lists—at the link below:
 
-### [👉 Get Instant Access to Keto Journey Here](https://www.checkout-ds24.com/redir/650227/sofiaahmad022007a637/)
-
+<a href="https://www.checkout-ds24.com/redir/650227/sofiaahmad022007a637/" class="btn">👉 Get Instant Access to Keto Journey Here</a>
 ---
 *Disclaimer: Individual results may vary. Always consult with a healthcare professional before starting a new diet or supplement regimen.*
