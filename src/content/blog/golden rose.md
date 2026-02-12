@@ -46,7 +46,7 @@ There are certain occasions where a standard gift just isn't enough. The 24K Gol
 ## Give a Gift That Never Fades
 If you're ready to make a lasting impression, it’s time to choose a gift as unique as your bond. Surprise your loved one with a token of appreciation that will sit beautifully on a desk or mantelpiece for years to come.
 
-### [👉 Shop the 24K Golden Rose Collection Here](https://www.checkout-ds24.com/redir/525359/wasiqhussain/)
+<a href="https://www.checkout-ds24.com/redir/525359/wasiqhussain/" class="btn">👉 Shop the 24K Golden Rose Collection Here</a>
 
 ---
-*Published by [Your Blog Name/Wasiq Hussain]*
+*Published by [the golden rose/sofia ahmad]*
