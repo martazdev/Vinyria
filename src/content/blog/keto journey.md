@@ -2,7 +2,7 @@
 title: "Keto Journey Review: The 30-Day Blueprint to a Complete Lifestyle Reset"
 description: "Stop guessing and start burning. Discover how the Keto Journey all-in-one system provides 30-day meal plans, shopping lists, and expert guides to help you reclaim your energy and health without the stress of planning."
 pubDate: 2026-02-12
-heroImage: "https://www.digistore24-app.com/webinc/images/defaults/product_thumb.png"
+heroImage: "https://m.media-amazon.com/images/I/71fehXhkeML.jpg"
 category: "lifestyle"
 rating: 4.7
 recommended: true
