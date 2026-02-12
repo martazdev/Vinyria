@@ -53,7 +53,7 @@ The biggest mistake most people make is waiting until the market is at an all-ti
 
 > "Knowledge is the best investment you can make in the crypto space. The market is volatile, but a solid strategy is your anchor."
 
-### [👉 Get Your Cryptocurrency Secrets Package Here!](https://www.digistore24.com/redir/549103/sofiaahmad022007a637/)
+<a href="https://www.digistore24.com/redir/549103/sofiaahmad022007a637/" class="btn">👉 Get Your Cryptocurrency Secrets Package Here!</a>
 
 ---
 
