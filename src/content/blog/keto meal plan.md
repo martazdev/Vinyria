@@ -57,11 +57,10 @@ When you sign up through the [official link](https://www.claudiacaldwell.com/oto
 If you are a beginner who feels overwhelmed by carb counting, or if you're a seasoned keto veteran who has hit a plateau, this structured approach provides the discipline and variety needed to see real change.
 
 > **Ready to start your transformation?**
-> [Click here to access Claudia Caldwell’s Ultimate Keto Meal Plan!](https://www.claudiacaldwell.com/oto-uf61a?el=splittest-1214-bradflow-control#aff=sofiaahmad022007a637)
+<a href="https://www.claudiacaldwell.com/oto-uf61a?el=splittest-1214-bradflow-control#aff=sofiaahmad022007a637" class="btn">Click here to access Claudia Caldwell’s Ultimate Keto Meal Plan!</a>
 
 ---
 
 ### Final Thoughts
 Weight loss is 80% nutrition. By following a structured plan, you eliminate the "decision fatigue" that leads to cheating on your diet. Give yourself 30 days of structure, and your body will thank you.
 
-*Disclaimer: Consult with a healthcare professional before starting any new diet plan.*
